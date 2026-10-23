@@ -34,7 +34,7 @@ import { createClient as createRedisClient } from 'redis'
 import RedisStore from 'connect-redis'
 import { readFileSync } from 'fs'
 
-
+const app = new express()
 
 // View engine setup, static content & session
 const __dirname = path.resolve()
